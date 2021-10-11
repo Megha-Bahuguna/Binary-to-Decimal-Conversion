@@ -5,10 +5,10 @@
 int main()
 {
 
-int d=0, b, base=1, r, n;
-printf("Enter the no. \n");
-scanf("%d",&b);
- n=b;
+int d=0, b, base=1, r, n;                        // d = decimal
+printf("Enter the no. \n");                      // b= binary
+scanf("%d",&b);                                  //r= remainder
+ n=b;                                            // n= number  
  while(b!=0)
  {
  	r=b%10;
